@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Date Validator</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+
+    if (g_scratchpad.validated) {
+        return true; 
+    }
+    
+
+    var courseId = g_form.getValue('course'); 
+    var proposedDate = g_form.getValue('date'); 
+    var sysId = g_form.getUniqueValue(); 
+
+
+    if (!courseId || !proposedDate) {
+        return true; 
+    }
+    
+
+    var ga = new GlideAjax('TrainingDateValidator'); 
+    ga.addParam('sysparm_name', 'checkDuplicateDate'); 
+    ga.addParam('sysparm_course', courseId);
+    ga.addParam('sysparm_date', proposedDate);
+    ga.addParam('sysparm_sys_id', sysId); 
+
+
+    ga.getXMLAnswer(validateResponse);
+    
+
+    return false; 
+}
+
+
+function validateResponse(answer) {
+    var result;
+    
+
+    try {
+        result = JSON.parse(answer);
+    } catch (e) {
+
+        console.error("Error parsing response from server: " + e.message); 
+        g_form.addErrorMessage("Internal server error during validation. Please try again.");
+        return; 
+    }
+    
+    if (result.conflict) {
+
+        var msg = "ERROR: The training for '" + result.courseName + 
+                  "' is already scheduled for " + result.date + 
+                  ". Please change the date.";
+        
+        g_form.addErrorMessage(msg);
+        
+    } else {
+
+        g_scratchpad.validated = true;
+        g_form.submit();
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 20:29:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>858558b3835832108bbdb2b6feaad3af</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Date Validator</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>sys_script_client_858558b3835832108bbdb2b6feaad3af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 20:45:10</sys_updated_on>
+        <table>x_752538_course_schedule</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

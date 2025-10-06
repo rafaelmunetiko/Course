@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1b604b2b839032108bbdb2b6feaad385" label="Course" max_length="40" name="x_752538_course_course" type="collection">
+        <element label="Description EN" max_length="4000" name="description_en" type="string"/>
+        <element label="Description PT" max_length="4000" name="description_pt" type="string"/>
+        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference"/>
+        <element display="true" label="Name" max_length="250" name="name" type="string"/>
+        <index name="index">
+            <element name="instructor"/>
+        </index>
+    </element>
+</database>

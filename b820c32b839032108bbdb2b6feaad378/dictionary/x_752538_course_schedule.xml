@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="76220fab839032108bbdb2b6feaad33e" label="Schedule" max_length="40" name="x_752538_course_schedule" type="collection">
+        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" reference_qual="javascript:new InstructorFilter().getInstructor(current);" type="reference" use_reference_qualifier="advanced"/>
+        <element display="true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Current Capacity" max_length="3" name="current_capacity" type="string"/>
+        <element label="Capacity Max" max_length="3" name="capacity_max" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Course" max_length="32" name="course" reference="x_752538_course_course" type="reference"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Full" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="7"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="course"/>
+        </index>
+        <index name="index2">
+            <element name="instructor"/>
+        </index>
+    </element>
+</database>
