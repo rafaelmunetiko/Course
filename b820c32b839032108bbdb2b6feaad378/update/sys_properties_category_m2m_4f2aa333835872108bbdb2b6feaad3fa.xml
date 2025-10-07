@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Course">ba88e3bf831872108bbdb2b6feaad3e3</category>
+        <order>400</order>
+        <property display_value="x_752538_course.integration_retry_count" name="x_752538_course.integration_retry_count">fde967ff831872108bbdb2b6feaad3c1</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 11:57:10</sys_created_on>
+        <sys_id>4f2aa333835872108bbdb2b6feaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_752538_course.integration_retry_count.Course</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_4f2aa333835872108bbdb2b6feaad3fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 11:57:10</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

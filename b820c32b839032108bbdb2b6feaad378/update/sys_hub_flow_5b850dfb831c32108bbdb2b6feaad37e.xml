@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2601000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4344000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>count_capacity</internal_name>
-        <label_cache>[{"name":"f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9.Record","label":"2 - Look Up Record➛Schedule Record","reference":"x_752538_course_schedule","reference_display":"Schedule","type":"reference","base_type":"reference","usedInstances":{"8ae120e1-2487-4917-9c93-ed531d0262ab":["record"],"e509a1f0-d641-485e-af0c-b3953cd4313c":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9.Record.capacity_max","label":"2 - Look Up Record➛Schedule Record➛Capacity Max","reference":"","reference_display":"Capacity Max","type":"string","base_type":"string","parent_table_name":"x_752538_course_schedule","column_name":"capacity_max","usedInstances":{"9fc76641-2e79-4743-b701-88648480a75a":["condition"]}},{"name":"900d511d-7c6a-4c3a-afe7-92ba44a06d16.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"9fc76641-2e79-4743-b701-88648480a75a":["condition"],"8ae120e1-2487-4917-9c93-ed531d0262ab":["current_capacity","capacity_max"],"e509a1f0-d641-485e-af0c-b3953cd4313c":["current_capacity"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.date.sys_id","label":"Trigger - Record Created➛Enrollment Record➛Date➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_752538_course_schedule","column_name":"sys_id","usedInstances":{"f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9":["conditions"]}},{"name":"Created_1.current.date","label":"Trigger - Record Created➛Enrollment Record➛Date","reference":"x_752538_course_schedule","reference_display":"Schedule","type":"reference","base_type":"reference","parent_table_name":"x_752538_course_enrollment","column_name":"date","usedInstances":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛Enrollment Record","reference":"x_752538_course_enrollment","reference_display":"Enrollment","type":"reference","base_type":"reference","usedInstances":{"900d511d-7c6a-4c3a-afe7-92ba44a06d16":["conditions"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9.Record","label":"2 - Look Up Record➛Schedule Record","reference":"x_752538_course_schedule","reference_display":"Schedule","type":"reference","base_type":"reference","usedInstances":{"8ae120e1-2487-4917-9c93-ed531d0262ab":["record"],"e509a1f0-d641-485e-af0c-b3953cd4313c":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9.Record.capacity_max","label":"2 - Look Up Record➛Schedule Record➛Capacity Max","reference":"","reference_display":"Capacity Max","type":"string","base_type":"string","parent_table_name":"x_752538_course_schedule","column_name":"capacity_max","usedInstances":{"9fc76641-2e79-4743-b701-88648480a75a":["condition"]}},{"name":"900d511d-7c6a-4c3a-afe7-92ba44a06d16.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"9fc76641-2e79-4743-b701-88648480a75a":["condition"],"8ae120e1-2487-4917-9c93-ed531d0262ab":["current_capacity","capacity_max"],"e509a1f0-d641-485e-af0c-b3953cd4313c":["current_capacity"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.date.sys_id","label":"Trigger - Record Created➛Enrollment Record➛Date➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_752538_course_schedule","column_name":"sys_id","usedInstances":{"f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9":["conditions"]}},{"name":"Created_1.current.date","label":"Trigger - Record Created➛Enrollment Record➛Date","reference":"x_752538_course_schedule","reference_display":"Schedule","type":"reference","base_type":"reference","parent_table_name":"x_752538_course_enrollment","column_name":"date","usedInstances":{"900d511d-7c6a-4c3a-afe7-92ba44a06d16":["conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Enrollment Record","reference":"x_752538_course_enrollment","reference_display":"Enrollment","type":"reference","base_type":"reference","usedInstances":{},"attributes":{}}]</label_cache>
         <master_snapshot>68488dff831c32108bbdb2b6feaad313</master_snapshot>
         <master_snapshot_digest/>
         <name>Count Capacity</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b850dfb831c32108bbdb2b6feaad37e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Count Capacity</sys_name>
         <sys_overrides/>
         <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name>sys_hub_flow_5b850dfb831c32108bbdb2b6feaad37e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:41:20</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:22</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -82,14 +82,14 @@
         <identifier>5b850dfb831c32108bbdb2b6feaad37e</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-07 00:41:19</sys_created_on>
-        <sys_id>0f7f0d3b835c32108bbdb2b6feaad33c</sys_id>
+        <sys_created_on>2025-10-07 01:10:22</sys_created_on>
+        <sys_id>a8265973839c32108bbdb2b6feaad32d</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:41:19</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:22</sys_updated_on>
         <trigger display_value="">78488dff831c32108bbdb2b6feaad357</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=5b850dfb831c32108bbdb2b6feaad37e^sys_idNOT IN0f7f0d3b835c32108bbdb2b6feaad33c"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=5b850dfb831c32108bbdb2b6feaad37e^sys_idNOT INa8265973839c32108bbdb2b6feaad32d"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=5b850dfb831c32108bbdb2b6feaad37e"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=5b850dfb831c32108bbdb2b6feaad37e^sys_idNOT IN63850dfb831c32108bbdb2b6feaad382"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -310,10 +310,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:44</sys_created_on>
         <sys_id>6c484dff831c32108bbdb2b6feaad3d8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:45:47</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:56</sys_updated_on>
         <ui_id>f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9</ui_id>
         <values>H4sIAAAAAAAA/+VYXW/iOhD9K1GeKTchQKBvV62QVtq7lba9+7K7shzbKdYaO2s7/UL89zuOE0CQAtGlUqt99Hhsn5k5Z+zk+zLkNLwM6TSa5tPpaJJGUZJE0XicEBxnWTImWZThYdgLJV4w8LQ4EwyGD1iUbvyE0tFglEwQUaU2DBkyZ7SsXCg3hcDP32rP280MmXNBNZPh5fefvbDAGva2TIeXy52pU8EJnDEBrnc1uh2w9rlYD1E1522ft5cFX/yE0tRBiXohe7JMUgYYciwM64ULLCm2Sj+vLZpheiPFxjDn0sKOoXN+MvwFzp1Ezi9nEBVhfm49RHWSvDm/xhbfWl0SW+ralcwVJ8z4fFCW41LYq22bd7gpLFfSL/Fh+9VKlAv5xacjXG/Q1AQsJRSNssIF6pDXYeS3c/X4tUE547LKST0pFMFiPcLWap6V1uFZhkywBWyEFrgouLxHhVYPvFoMWBb9ewGDfi7UIxxq+L3sY+KA9yGvuD8D+3Vl/oY1d1H8A9vAYgDEBTAE+RIa4FqVygdERGmqCY2l8XuFq15ons2VwMZsIoeUo9+lw+3zUEeMfNLcEqJ5Yf+GLR5YHdyq1+hjdJCC0w3liJKUOxRmSySABnH6o4TFdLm8AtJYRlHcJ6WG/FoXPOt7p9VqXzldl3eU1/HYGnldbQfXFnAttD3b57YNaqHFZxPaMIo+ktTg8PentO7a8Sk4IqCYHiQZ3fDJKG2Rz+WWgvZF0ZnnJ0BoeH7jmBlkz6+hqmmecyZo230ycxM798ngz7xP3iXJARBFvnpcCi6rxwEAfSv2jw5SL4t3eFbRa+v2cDZsyL4GcGBV8NJZCSfAaZRwC2cHdx5PC8Sm31eU2e31jbEWQHI2ASSD8whguQ5znciWnDfvQVfNxv/F+eNdf6Dg1oJ41SawTmfGXc8crPYFnHRS8DbZ/Mz1K5w788PxFUX23rIFzGFpfR7y+kWPnN4zuzm98aLKPmLxq22+ZhxqClWF9waP0Pjgd1C29QjlOVpA5XgBb2XNCJDDIKwZylUpKapfyRsiuUrmXBtbO+83mq8M9CMDBcIM7JwFlXew9u54ER+Po0nlpzxoAqlPMwEEElSBBOtAuoXdpWkNz/g4PXfTmmEuqmrAB1CxVU6mtdKvNK4jhTzAiBO72omg4rOC+v9tr00Cre3vCNYP8TV9/tZEGM6GAzxOkziOojiiaTRJ03gyzvIxTof5RqMIGUmgm8LOOVAFtkcNNZo6R/v9x7fUro3mBFQNBa+VdN/Xg9QGDhbUN2hgHQdeN5RMKcGw3Okod3BP/DWr8dd8Hb27rvIh/i2V/G43097Umuu3ejeU/F/Jf5fsk6PYhEWDSUzJxSSN04thTscXU4pHF3iajdKEMjLMz/kU+Pkf+Okvz7EVAAA=</values>
     </sys_hub_action_instance_v2>
@@ -332,10 +332,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:44</sys_created_on>
         <sys_id>a4484dff831c32108bbdb2b6feaad3dd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:45:47</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:56</sys_updated_on>
         <ui_id>e509a1f0-d641-485e-af0c-b3953cd4313c</ui_id>
         <values>H4sIAAAAAAAA/+VV207cMBD9FeTnTeRc9/JWsUKqREGCihcK0cSesJacSx0b2K723+skzu4WEAWJPqDu28z4eM6czFlfb4jgZEFi5DSYBymLgigKKQ1ncZCnUR6EPALEgExIBSXakwpZrbiN70GaLrHZFLOCxcU09yIagBcXmHjzgKVewuKQc1bQGOb+RY/bbi2Si7aRsL5yF9gMWwnJFVZkcX0zIQ0o20ujIovNk9JbyUrIUdqjFyPbp+z1uuliXjNTYqUzMSZPHXLpKkdfl7ZiQR2dgE4IPmqsOFoiBcgWJ6SEioOu1ZostDI2oRD4eSXXuxMrUelh0BIeW/HLdo5pd65AOxlzIuzCzAk0pIslaLi0NzNt1E6vWjBsB004FmCkPj7MDQfOGy3qaoBoyOWIrqUpq7NBEbK74OB7mNaSwKabs2M+jFVcruqHi5Hkiah6SdyIsmYgdxForURudEdnQ1Bir3EJTSOqu6xR9b3owZZK6d9JG/iFrB9sz1bcVT6wjrdvVQX/xOaXffoKlOiG+GavseDthLTr9lhC2+5HsRpmP03HZBjMjZD1KvQSZP0mdGCmRKO/2Fb36IhvJ84OefLahrH5fqEO7txb4jGbJmESzTJWG2WlbNkKuZH4fPcv95X3eeANDEcPfO+//MuMnQ2e5U4PsUdnQ8GZIPkwE8w+kwncGJ/eBX/bfRq++u96sEn9urcHe8+MUl0fBg0wodc/DKUR32zmlPIkCLg3Zal9IFgEHhQ49eZhDnEMNOVB6h/XptLb7e2f4Olzz/yjLu/z3xtUGv13IlDy9gXZRvNhacfTmA0yPjGgKx5dueLuJfowFwYp7X+fyIv/zYN08xu57OIvoQkAAA==</values>
     </sys_hub_action_instance_v2>
@@ -354,10 +354,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:44</sys_created_on>
         <sys_id>a8484dff831c32108bbdb2b6feaad3db</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:45:47</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:56</sys_updated_on>
         <ui_id>8ae120e1-2487-4917-9c93-ed531d0262ab</ui_id>
         <values>H4sIAAAAAAAA/+VV207cMBD9FeTnTeRc9/JWsUKqREGCihcK0cSesJacSx0bdhvtv9e57S4XUah4KGrePOOZOXM8Z3LdEMHJgoTIqTf3YhZ4QeBT6s9CL42D1PN5AIgemZACcrQ3FbJScXu+B2laQ9Nks4yF2TR1AuqBE2YYOXOPxU7EQp9zltEQ5u5FF7fd2kgu6krC5mpIYC1sJSRXWJDF9c2EVKBsLY2KLJonrreClZCitFcvRrRP0etN1Z55yUyOhU7EaDwdIpeD5+jr0npsUAvHoxOCa40FRwskA1njhORQcNCl2pCFVsYaFAI/L+Rmd2MlCt03msO6Fr9s5ZC29zK0nbGBhN0xGQjqzdkSNFzazEwbteOrFAzrnhOOGRipjw9t/YXzSouy6EM0pHKMLqXJi7OeEbJLcPAeprYgsGr7bJH3bWWXq/LhYgR5IoqOkqFFWTKQuxNorURqdAunISix4ziHqhLFXVKp8l50wRZK7t5Je3AzWT7YmrW4K1xgLW7XsgruibUvO/MVKNE28c2mscHbCak39bGEut63YjlMfpoWSd/Y0ELSsdBRkHST0AYzJSr9xZa6xwH4djLIIY1emzA23w/UQc69JNbJNPKjYJaw0ihLZc1WyI3E57N/ufe8TwNvQDhq4Hv38i8jHmTwzHZ6GHt01jsGEUQfJoLZZxLB0ManV8GfZp/6r27Xg0nqxr0+mHsGFTChNz8MpQEPbplRqq372N40c0p55HncmbLY/jBYAA5kOHXmfgphCDTmXuwel6bQ2+3tGGyJW/9Nguei+1dhvm8DvOGdxg1wIlDy+oWHG+WPueVHY9I/5JMVMDiPrgbn7l/4YXvAi2n3faJt8N/8Em9+A2KMA44jCgAA</values>
     </sys_hub_action_instance_v2>
@@ -376,12 +376,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:44</sys_created_on>
         <sys_id>ac484dff831c32108bbdb2b6feaad3d6</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:45:47</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:56</sys_updated_on>
         <ui_id>900d511d-7c6a-4c3a-afe7-92ba44a06d16</ui_id>
-        <values>H4sIAAAAAAAA/+VXXW/aMBT9KyjPEUoIUMbbRFepUluktupL11lO7IA1k2S2w0cR/33XsRMiSDsiUanVHn0/7HPvPcdxnrcOI87YGcV9z8P+YHTheUHgecNhEGE/DINhFHphP3RcJ8ELCpEKh5zCcol5rtdrdDHoDYIRitJcSIpoIlLOFzRREESYzDjePNnYH3VfNGecCJo44+cX18mwgP0VFc54e+A6FSDHIeUQ+mgRHgBWm6xaosJnbDf1tM6dcaSCaCie69C1ogmhgCHGXFLXWeCEYJWKTWURFJNpwveGOYMKx46jg9eSvcK5I0/HxRSqiqjxVUtk22TM8SVW+EGJPFK5sKHRPGURlaYfhMY452pSt5mAaaZYmpgUU7bJTnm+SO5MO5xqg3IqYMlhcIRmulCN3JYRP8zT1X2J8oolRU+sk6cR5tUKKyVYmCuNZ+tQTvWQ0QJnGUtmKBPpkhXJgGXRnXFYdGOeruBQyWZJF0caeBf6irtXYL8szE9YMF3FLWwDyQCIcWAIMiOUwLeilUsU8VwWDoETafZydq4jN3LCsZT7yqHl6E+ucZs+2IqRaZpOiQTL1HfYYkltcTv3JI0MvD3lojQhTKOQNaFAcfRnDqlku50AZRQlyO9GuYDuqt3u1/ReKjBe3/Xc4Fg6LbPPKa6islJck3ppTeVamR3Zbpo2sDLzzyYzqOMrCQ0O/3w6a68c04J/yCe6eJdkgz2fZCoUMr2s6edYE615fgKEkudTzcxOuHkLlaV5zCgnTV+TK+04+Jr0/s+vyackOQAiyEyPJZwlxdMAgH4U+733r9hvBzwr6LXnfmHDMjrWAO6otPPaWgknwCmV8ABndx4NngaI5X1fUObwri+NVgDB2QQQ9M4jgG1VZtXIhp6Xr0E9zTL+Vcfjw3igYC3B3zUJrNWZftsze7tjAQetFFwnm/FcvsG5Mz8b31Ck+5FXwBxS7XnI6BetGJlRtT+9jCKpWmH+u8lvGYfKQRXlfcATtP+ubIf+XqKgFCSohOHV36A+PI+O7xDfNeZ2V8gJWMp23OJ1574C04jQXiOgdDorZlO/R64rqyV5/4wPxk/7JS2H1ajBcmZf4s/tfEJ4+QsKIxKKsRAAAA==</values>
+        <values>H4sIAAAAAAAA/+VX227iMBD9FeTnCCUEKNu3Fd1KlXqR2qov3a7lxA5Ya5ys7XAp4t93HCchgrQLEpVa7RPyXOwzM+c45nmNOEXnaJT0fZ8Eg9GZ74eh7w+HYUyCKAqHceRH/Qh5SJIZg0hDIsFgOScit+slPhv0BuEIx2muNMNMqlSIGZMGgijXmSCrpzL2R9MXT7mgikl0/vzioYwo2N8whc7XO65DAQoSMQGhjyXCHcBmldVLXPic7bqZ1rl1jlRRC8X3EFsaJikDDAkRmnloRiQlJlWr2qIYoXdSbA1TDhWeI2SDl5q/wrkj38YlDKqKmfPVS1y2yZmTC2LIg1F5bHJVhsbTlMdMu35QlpBcmHHT5gLuMsNT6VJc2S47FflM3rp2oHqDaipgyWFwlGW2UIu8LCN5mKaL+wrlJZdFT0qnSGMi6hUxRvEoNxbPGjHB7JDxjGQZlxOcqXTOi2TAMutOBCy6iUgXcKjmE9klsQXehb6S7iXYLwrzE1HcVnED20AyAOICGILdCDXwrWjlHMci14VDEandXmjjIb3SY0G03lYOLcd/covb9aGsGLum2ZRY8cx8hy3mrCxu4x2kkYG/pVycSsotCt0QChTHfuaQStfrMVDGMIqDbpwr6K6xpbPN5pc28Ht12/PCffUcv8EpJVbUV0ls3CywrehSbHu267YNSrEFJxMb1PGV5AaHfz61Ha8f14J/iCg+e5dkgy2fdKoMdr1sqGhfFkfz/AAIFc/vLDM70eotVCXNE84EbfumXFrHzjel939+Uz4lyQEQxW56XAouiwcCAP0o9vvvX7HfdnhW0GvL/cJGdLyvAdIxaef1aCUcAKdSwgOc3Xl0eFogVvd9QZndu74ylgIITyaAsHcaAazrMutGtvS8ehPaaVbxrzae7MYDBRsJwaZNYEedGRx7Zm+zL+DwKAU3yeY8F29w7sSPxzcU6X3kFTCF1PI87PSLF5xOmNmeXkXR1CyI+N3mLxmHq0EV5X3AQ7T/rmyHwVaioBSsmIbhNV+iATyP9u+QwHPm466QA7BU7bghy859DaYVYXmNgNLZpJhN8x65qq0lyfsnfDB+2i9pNaxWDVYz+xL/304nhJe/5u2xaLcQAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=5b850dfb831c32108bbdb2b6feaad37e"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=5b850dfb831c32108bbdb2b6feaad37e^sys_idNOT IN20484dff831c32108bbdb2b6feaad3dd,a4484dff831c32108bbdb2b6feaad3dc,ec484dff831c32108bbdb2b6feaad3d9"/>
@@ -403,10 +403,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:44</sys_created_on>
         <sys_id>20484dff831c32108bbdb2b6feaad3dd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:41:17</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:20</sys_updated_on>
         <ui_id>6286b359-61c0-4416-af74-88744e6d69d3</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -429,10 +429,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:44</sys_created_on>
         <sys_id>a4484dff831c32108bbdb2b6feaad3dc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:41:17</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:20</sys_updated_on>
         <ui_id>456b83ca-1b06-4a86-9f70-48962aafe49b</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -455,10 +455,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:44</sys_created_on>
         <sys_id>ec484dff831c32108bbdb2b6feaad3d9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:41:17</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:20</sys_updated_on>
         <ui_id>9fc76641-2e79-4743-b701-88648480a75a</ui_id>
         <values>H4sIAAAAAAAA/+1VTWvcMBD9K8XntZE/k82lhJRAoW0gCb20wYylUVZUK7mWnGRr/N87sr1JyActpdBLL8vOG83Me7Pz2CGyvW977y7tsXPq2kRHX65WkTIBo+9DZGCL0VHErRHKK2vqCVhFN6D7kDjttX5LsVCu1bD7/ATmG6VFh0vfFjqq9thFR8OTlN+1WGtoUFP1he+UuaZyJSiSDGS65inPsyrPGMsOi7Sp8ibNRA4IOb3bF57sab75MCGrV/mHeYS7/STbiUArZasI7zwagTRagna4irZgBHjb7e6RDkGcGf0AbJTx1C4Kj++c+kG9s7IMDyWSRo5z8j6sl33NMN9YxfGsDQRnxEOjlxpudb81n2YdYdMoodd+v2lCekf9sA2kA4uFkrzY2Nvz/cBTZSaBS1JbDvo+Ak9raHqPLvwwqHFLjeottC0tp247e6OmYuKyTa41BYnU9paGhptJgAfiCe0IklPC303wZ+hUUPGR2lDxTLMBp3g93Re18x1JGKe11N/7QGgWuEip523QA8c71fpjmnODC+tx9fw4H93lMKwZE2WaiviAVxAXPIcYJB7E66yBogBWibRKTmxv/Dh+7RnLcfoUwyAPJS/kQRPnLKVKiWW8TnkVl7zIhOCSFbBOzpHTzSQcWuDK72hbd+P43Aj/jMffcN4aSlmmrHzZeUX1kvNe8Nzrdst+YbdwIL/pNsbYf7s9tpty9WybRds0/I/ddhWsNU9w890I5MoRkcuAvd//Y4TEjg5A8cfQre2+BQkP2PgTDDniy3sGAAA=</values>
         <workflow_reference/>
@@ -529,7 +529,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>count_capacity</internal_name>
-        <label_cache>[{"name":"f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9.Record","label":"2 - Look Up Record➛Schedule Record","reference":"x_752538_course_schedule","reference_display":"Schedule","type":"reference","base_type":"reference","usedInstances":{"8ae120e1-2487-4917-9c93-ed531d0262ab":["record"],"e509a1f0-d641-485e-af0c-b3953cd4313c":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9.Record.capacity_max","label":"2 - Look Up Record➛Schedule Record➛Capacity Max","reference":"","reference_display":"Capacity Max","type":"string","base_type":"string","parent_table_name":"x_752538_course_schedule","column_name":"capacity_max","usedInstances":{"9fc76641-2e79-4743-b701-88648480a75a":["condition"]}},{"name":"900d511d-7c6a-4c3a-afe7-92ba44a06d16.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"9fc76641-2e79-4743-b701-88648480a75a":["condition"],"8ae120e1-2487-4917-9c93-ed531d0262ab":["current_capacity","capacity_max"],"e509a1f0-d641-485e-af0c-b3953cd4313c":["current_capacity"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.date.sys_id","label":"Trigger - Record Created➛Enrollment Record➛Date➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_752538_course_schedule","column_name":"sys_id","usedInstances":{"f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9":["conditions"]}},{"name":"Created_1.current.date","label":"Trigger - Record Created➛Enrollment Record➛Date","reference":"x_752538_course_schedule","reference_display":"Schedule","type":"reference","base_type":"reference","parent_table_name":"x_752538_course_enrollment","column_name":"date","usedInstances":{}},{"name":"Created_1.current","label":"Trigger - Record Created➛Enrollment Record","reference":"x_752538_course_enrollment","reference_display":"Enrollment","type":"reference","base_type":"reference","usedInstances":{"900d511d-7c6a-4c3a-afe7-92ba44a06d16":["conditions"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9.Record","label":"2 - Look Up Record➛Schedule Record","reference":"x_752538_course_schedule","reference_display":"Schedule","type":"reference","base_type":"reference","usedInstances":{"8ae120e1-2487-4917-9c93-ed531d0262ab":["record"],"e509a1f0-d641-485e-af0c-b3953cd4313c":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9.Record.capacity_max","label":"2 - Look Up Record➛Schedule Record➛Capacity Max","reference":"","reference_display":"Capacity Max","type":"string","base_type":"string","parent_table_name":"x_752538_course_schedule","column_name":"capacity_max","usedInstances":{"9fc76641-2e79-4743-b701-88648480a75a":["condition"]}},{"name":"900d511d-7c6a-4c3a-afe7-92ba44a06d16.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"9fc76641-2e79-4743-b701-88648480a75a":["condition"],"8ae120e1-2487-4917-9c93-ed531d0262ab":["current_capacity","capacity_max"],"e509a1f0-d641-485e-af0c-b3953cd4313c":["current_capacity"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.date.sys_id","label":"Trigger - Record Created➛Enrollment Record➛Date➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_752538_course_schedule","column_name":"sys_id","usedInstances":{"f8fc4f7b-301a-4fe5-91c6-5c42ddcf04a9":["conditions"]}},{"name":"Created_1.current.date","label":"Trigger - Record Created➛Enrollment Record➛Date","reference":"x_752538_course_schedule","reference_display":"Schedule","type":"reference","base_type":"reference","parent_table_name":"x_752538_course_enrollment","column_name":"date","usedInstances":{"900d511d-7c6a-4c3a-afe7-92ba44a06d16":["conditions"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Enrollment Record","reference":"x_752538_course_enrollment","reference_display":"Enrollment","type":"reference","base_type":"reference","usedInstances":{},"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Count Capacity</name>
         <natlang/>
@@ -546,7 +546,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>68488dff831c32108bbdb2b6feaad313</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -554,7 +554,7 @@
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:41:19</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:22</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -638,14 +638,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:45</sys_created_on>
         <sys_id>20488dff831c32108bbdb2b6feaad316</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:41:19</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -722,14 +722,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:45</sys_created_on>
         <sys_id>7c488dff831c32108bbdb2b6feaad323</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:41:19</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -846,12 +846,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:46</sys_created_on>
         <sys_id>fc488dff831c32108bbdb2b6feaad331</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:09:46</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:21</sys_updated_on>
         <ui_id>900d511d-7c6a-4c3a-afe7-92ba44a06d16</ui_id>
-        <values>H4sIAAAAAAAA/+VXXW/aMBT9KyjPEUoIUMbbRFepUluktupL11lO7IA1k2S2w0cR/33XsRMiSDsiUanVHn0/7HPvPcdxnrcOI87YGcV9z8P+YHTheUHgecNhEGE/DINhFHphP3RcJ8ELCpEKh5zCcol5rtdrdDHoDYIRitJcSIpoIlLOFzRREESYzDjePNnYH3VfNGecCJo44+cX18mwgP0VFc54e+A6FSDHIeUQ+mgRHgBWm6xaosJnbDf1tM6dcaSCaCie69C1ogmhgCHGXFLXWeCEYJWKTWURFJNpwveGOYMKx46jg9eSvcK5I0/HxRSqiqjxVUtk22TM8SVW+EGJPFK5sKHRPGURlaYfhMY452pSt5mAaaZYmpgUU7bJTnm+SO5MO5xqg3IqYMlhcIRmulCN3JYRP8zT1X2J8oolRU+sk6cR5tUKKyVYmCuNZ+tQTvWQ0QJnGUtmKBPpkhXJgGXRnXFYdGOeruBQyWZJF0caeBf6irtXYL8szE9YMF3FLWwDyQCIcWAIMiOUwLeilUsU8VwWDoETafZydq4jN3LCsZT7yqHl6E+ucZs+2IqRaZpOiQTL1HfYYkltcTv3JI0MvD3lojQhTKOQNaFAcfRnDqlku50AZRQlyO9GuYDuqt3u1/ReKjBe3/Xc4Fg6LbPPKa6islJck3ppTeVamR3Zbpo2sDLzzyYzqOMrCQ0O/3w6a68c04J/yCe6eJdkgz2fZCoUMr2s6edYE615fgKEkudTzcxOuHkLlaV5zCgnTV+TK+04+Jr0/s+vyackOQAiyEyPJZwlxdMAgH4U+733r9hvBzwr6LXnfmHDMjrWAO6otPPaWgknwCmV8ABndx4NngaI5X1fUObwri+NVgDB2QQQ9M4jgG1VZtXIhp6Xr0E9zTL+Vcfjw3igYC3B3zUJrNWZftsze7tjAQetFFwnm/FcvsG5Mz8b31Ck+5FXwBxS7XnI6BetGJlRtT+9jCKpWmH+u8lvGYfKQRXlfcATtP+ubIf+XqKgFCSohOHV36A+PI+O7xC/a8ztrpATsJTtuMXrzn0FphGhvUZA6XRWzKZ+j1xXVkvy/hkfjJ/2S1oOq1GD5cy+xJ/b+YTw8hcpxghGsRAAAA==</values>
+        <values>H4sIAAAAAAAA/+VX227iMBD9FZTnCCUEKNu3Fd1KlXqR2qov3a7lOA5Ya5ys7XAp4t93HDshgrQLEpVa7RPyXOwzM+c45nntscQ790ZpPwhwOBidBUEUBcFwGBEcxnE0JHEQ92PP9wSeUYjUOOYUlnPMC7NeorNBbxCNEMkKqSiiQmacz6jQEJQwlXO8enKxP5o+MmU8kVR4588vvpdjCftrKr3z9Y7rUIAcx5RD6KNDuANYr/J6iUqftV030zq31pHJxEAJfI8uNRUJBQwp5or63gyLBOtMrmqLpDi5E3xrmDKo8NzzTPBSsVc4dxSYuJRCVYRaX71Erk3WnF5gjR+0LIgupAsl04wRqmw/Eprigutx02YD7nLNMmFTbNk2O+PFTNzadnj1BtVUwFLA4BKam0INcldG+jDNFvcVyksmyp44J88I5vUKay1ZXGiDZ+1RTs2Q0QznORMTlMtszspkwDLrTjgsuinPFnCoYhPRxcQA70JfcfcS7Bel+QlLZqq4gW0gGQAxDgxBdoQK+Fa2co4IL1TpkFgou5e38T21UmOOldpWDi1HfwqD2/bBVYxs00wKkSzX32GLOXXFbfyDNDIItpQjmUiYQaEaQoHi6M8CUpP1egyU0TRBYZcUErqrTel0s/mlNPxe3fb8aF89x29wSomV9VUSGzcLbCvaiW3Pdt22gRNbeDKxQR1fSW5w+OdT2/H6sS34h4jI2bskG2z5pDKpke1lQ0X7sjia5wdAqHh+Z5jZiVdvoXI0TxnlSds35dI4dr4pvf/zm/IpSQ6AEmSnxwRnonwgANCPYn/w/hX7bYdnJb223C9tWJF9DeCOzjqvRyvhADiVEh7g7M6jxdMCsbrvS8rs3vWV0QkgOpkAot5pBLCuy6wb2dLz6k1oplnFv5p4vBsPFGwkhJs2gR11Znjsmb3NvoCjoxTcJJv1XLzBuRM/Ht9QpP+RV8AUUt15yOoXLVgyoXp7ehWVZHqB+e82v2McqgZVlvcBD9H+u7IdhluJglKQpAqG13yJhvA82r9Dwq41H3eFHIClascNXnbuazCtCN01Akqnk3I2zXvkqrY6kvdP+GD8tF/SalitGqxm9iX+v51OCC9/AcUIq6S3EAAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=68488dff831c32108bbdb2b6feaad313"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=68488dff831c32108bbdb2b6feaad313^sys_idNOT IN34488dff831c32108bbdb2b6feaad32f,70488dff831c32108bbdb2b6feaad331,b4488dff831c32108bbdb2b6feaad330"/>
@@ -873,10 +873,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:46</sys_created_on>
         <sys_id>34488dff831c32108bbdb2b6feaad32f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:41:19</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:21</sys_updated_on>
         <ui_id>9fc76641-2e79-4743-b701-88648480a75a</ui_id>
         <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPtpE/2/RllJTAoFuhLX3ZirnWRyOmWJ4lp82M//uubCctbcdWNtjLXkJ0pHvvOSf3kJ6YzjWds9fm1Fp1V5OTz7cBUbXH8HtPatgIckKYqblyytTlCARkC7rzF6tO6/d45so2GnY3z2C2Vpq3Yu7bQIvVTrTkpH92pThWSQoyXrCYpUmRJpQmx1lcFWkVJzwFASk21FAJjU+Xe0Lvzkck+ClTt2s8bl2r6rv5fD53udqDpuWeVUwDIh6cqLlAPhK0FQHZQM3BmXZ3QFoB/KLWj8Ba1Q7bEf/4warvODDJc/9QCpTIxHR5OJazXRMsz8ABUumY69r5KVsbxYSdzOFCQqfd8ik2PbhovNSpxEGl99VGd5v60+QIOTTY/zqIdBZJiMYr9dRnHfJqbe4v9yxXqh5dmS+1YaAPJ3DoXdU5z6cnQosNNio30DToaNm0ZqvGYuSyie40HiKpzT0O9XsWAfPEIzQWohXiZyN8A63yKj5iGyyeaFZgFSvHncR2aJMgQ0Dszi41WPsoEt0tv3We4iR5FldO/vgS1qrGneLkrZh1DMHLFX+y3X2/oJTncczDI1ZAmLEUQpDiKFwkFWQZ0ILHRbQ0Xe2G4UtHaSrGT9738liyTB5VYUpjrJQiDxcxK8KcZQnnTNIMFtGlYLh6EYMGmHI79O9hGF7G6Z/xeFt+F5DLPKb56/nNitfy+0py3xja5Beh9Rvzm5mllP4P7R+HVtlyitqsbRz+FzN76wM6zTx4zZRFatce+7D/9/IXO1wuxZ5C96b96kU9YsMPGFLAEgcHAAA=</values>
         <workflow_reference/>
@@ -899,10 +899,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:46</sys_created_on>
         <sys_id>70488dff831c32108bbdb2b6feaad331</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:41:19</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:22</sys_updated_on>
         <ui_id>6286b359-61c0-4416-af74-88744e6d69d3</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -925,10 +925,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:46</sys_created_on>
         <sys_id>b4488dff831c32108bbdb2b6feaad330</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:41:19</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:21</sys_updated_on>
         <ui_id>456b83ca-1b06-4a86-9f70-48962aafe49b</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -995,17 +995,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"b8488dff831c32108bbdb2b6feaad359","name":"plan","plan_signature":null}}</plan>
         <plan_id>5b850dfb831c32108bbdb2b6feaad37e</plan_id>
-        <snapshot>e48091bb835c32108bbdb2b6feaad3c2</snapshot>
+        <snapshot>74461d73839c32108bbdb2b6feaad3b7</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 00:09:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b8488dff831c32108bbdb2b6feaad359</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 00:41:19</sys_updated_on>
+        <sys_updated_on>2025-10-07 01:10:22</sys_updated_on>
         <trigger display_value="">78488dff831c32108bbdb2b6feaad357</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5b850dfb831c32108bbdb2b6feaad37e"/>
