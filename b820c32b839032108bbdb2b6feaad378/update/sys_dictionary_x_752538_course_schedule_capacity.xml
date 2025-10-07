@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="state" table="x_752538_course_schedule">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="capacity" table="x_752538_course_schedule">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -8,7 +8,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>State</column_label>
+        <column_label>Capacity</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>state</element>
+        <element>capacity</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-06 14:35:58</sys_created_on>
-        <sys_name>State</sys_name>
+        <sys_created_on>2025-10-06 23:28:02</sys_created_on>
+        <sys_name>Capacity</sys_name>
         <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
         <sys_policy/>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
-        <sys_update_name>sys_dictionary_x_752538_course_schedule_state</sys_update_name>
+        <sys_update_name>sys_dictionary_x_752538_course_schedule_capacity</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-06 14:35:59</sys_updated_on>
+        <sys_updated_on>2025-10-06 23:28:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
