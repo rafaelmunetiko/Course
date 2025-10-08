@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Enrollment Validator</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var date = g_form.getValue('date'); 
+	var userId = g_user.userID;
+
+	 var ga = new GlideAjax('DuplicateEnrollment');
+    ga.addParam('sysparm_name', 'verifyDuplicateEnrollment');
+    ga.addParam('sysparm_user_id', userId);
+    ga.addParam('sysparm_date_id', date);
+    ga.getXMLWait();
+
+	var resposta = ga.getAnswer();
+
+    if (resposta == 'true') {
+
+        alert('Error: you are arleady rneoll');
+        return false; 
+    }
+
+
+    return true; 
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 21:02:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f68b90b7835832108bbdb2b6feaad3a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Enrollment Validator</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>sys_script_client_f68b90b7835832108bbdb2b6feaad3a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 22:17:38</sys_updated_on>
+        <table>x_752538_course_enrollment</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course">b820c32b839032108bbdb2b6feaad378</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>sys_script_client_f68b90b7835832108bbdb2b6feaad3a8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Enrollment Validator&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    var date = g_form.getValue('date'); 
+	var userId = g_user.userID;
+
+	 var ga = new GlideAjax('DuplicateEnrollment');
+    ga.addParam('sysparm_name', 'verifyDuplicateEnrollment');
+    ga.addParam('sysparm_user_id', userId);
+    ga.addParam('sysparm_date_id', date);
+    ga.getXMLWait();
+
+	var resposta = ga.getAnswer();
+
+    if (resposta == 'true') {
+
+        alert('Error: you are arleady rneoll');
+        return false; 
+    }
+
+
+    return true; 
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-06 21:02:43&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f68b90b7835832108bbdb2b6feaad3a8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Enrollment Validator&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Course" source="x_752538_course"&gt;b820c32b839032108bbdb2b6feaad378&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Course"&gt;b820c32b839032108bbdb2b6feaad378&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f68b90b7835832108bbdb2b6feaad3a8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-06 22:17:38&lt;/sys_updated_on&gt;&lt;table&gt;x_752538_course_enrollment&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1614113760</payload_hash>
+        <record_name>Enrollment Validator</record_name>
+        <reverted_from/>
+        <source>747d543f835832108bbdb2b6feaad3bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 22:17:38</sys_created_on>
+        <sys_id>da9e207383d832108bbdb2b6feaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199bb9a0b8e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 22:17:38</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>5e9e2073dcd832104ff6a2fd65a78527</update_guid>
+        <update_guid_history>5e9e2073dcd832104ff6a2fd65a78527:-1614113760,307d543f5f583210bd8317fc3368efbf:1087094285</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 11:50:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>273cf405e3af4020b7bcc642936b4840</sys_id>
+        <sys_metadata>f68b90b7835832108bbdb2b6feaad3a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enrollment Validator</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_parent display_value="Enrollment">e1650faf839032108bbdb2b6feaad327</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_scope_delete display_value="">1bce752f4b6946e697a4fab45d9be624</sys_scope_delete>
+        <sys_update_name>sys_script_client_f68b90b7835832108bbdb2b6feaad3a8</sys_update_name>
+        <sys_update_version display_value="sys_script_client_f68b90b7835832108bbdb2b6feaad3a8">da9e207383d832108bbdb2b6feaad328</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 11:50:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

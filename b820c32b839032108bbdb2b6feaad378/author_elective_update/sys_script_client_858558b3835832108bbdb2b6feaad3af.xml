@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Date Validator</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+
+    if (g_scratchpad.validated) {
+        return true; 
+    }
+    
+
+    var courseId = g_form.getValue('course'); 
+    var proposedDate = g_form.getValue('date'); 
+    var sysId = g_form.getUniqueValue(); 
+
+
+    if (!courseId || !proposedDate) {
+        return true; 
+    }
+    
+
+    var ga = new GlideAjax('TrainingDateValidator'); 
+    ga.addParam('sysparm_name', 'checkDuplicateDate'); 
+    ga.addParam('sysparm_course', courseId);
+    ga.addParam('sysparm_date', proposedDate);
+    ga.addParam('sysparm_sys_id', sysId); 
+
+
+    ga.getXMLAnswer(validateResponse);
+    
+
+    return false; 
+}
+
+
+function validateResponse(answer) {
+    var result;
+    
+
+    try {
+        result = JSON.parse(answer);
+    } catch (e) {
+
+        console.error("Error parsing response from server: " + e.message); 
+        g_form.addErrorMessage("Internal server error during validation. Please try again.");
+        return; 
+    }
+    
+    if (result.conflict) {
+
+        var msg = "ERROR: The training for '" + result.courseName + 
+                  "' is already scheduled for " + result.date + 
+                  ". Please change the date.";
+        
+        g_form.addErrorMessage(msg);
+        
+    } else {
+
+        g_scratchpad.validated = true;
+        g_form.submit();
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 20:29:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>858558b3835832108bbdb2b6feaad3af</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Date Validator</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>sys_script_client_858558b3835832108bbdb2b6feaad3af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 22:13:49</sys_updated_on>
+        <table>x_752538_course_schedule</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course">b820c32b839032108bbdb2b6feaad378</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>sys_script_client_858558b3835832108bbdb2b6feaad3af</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;date&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Date Validator&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+
+    if (g_scratchpad.validated) {
+        return true; 
+    }
+    
+
+    var courseId = g_form.getValue('course'); 
+    var proposedDate = g_form.getValue('date'); 
+    var sysId = g_form.getUniqueValue(); 
+
+
+    if (!courseId || !proposedDate) {
+        return true; 
+    }
+    
+
+    var ga = new GlideAjax('TrainingDateValidator'); 
+    ga.addParam('sysparm_name', 'checkDuplicateDate'); 
+    ga.addParam('sysparm_course', courseId);
+    ga.addParam('sysparm_date', proposedDate);
+    ga.addParam('sysparm_sys_id', sysId); 
+
+
+    ga.getXMLAnswer(validateResponse);
+    
+
+    return false; 
+}
+
+
+function validateResponse(answer) {
+    var result;
+    
+
+    try {
+        result = JSON.parse(answer);
+    } catch (e) {
+
+        console.error("Error parsing response from server: " + e.message); 
+        g_form.addErrorMessage("Internal server error during validation. Please try again.");
+        return; 
+    }
+    
+    if (result.conflict) {
+
+        var msg = "ERROR: The training for '" + result.courseName + 
+                  "' is already scheduled for " + result.date + 
+                  ". Please change the date.";
+        
+        g_form.addErrorMessage(msg);
+        
+    } else {
+
+        g_scratchpad.validated = true;
+        g_form.submit();
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-06 20:29:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;858558b3835832108bbdb2b6feaad3af&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Date Validator&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Course" source="x_752538_course"&gt;b820c32b839032108bbdb2b6feaad378&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Course"&gt;b820c32b839032108bbdb2b6feaad378&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_858558b3835832108bbdb2b6feaad3af&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-06 22:13:49&lt;/sys_updated_on&gt;&lt;table&gt;x_752538_course_schedule&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1258711789</payload_hash>
+        <record_name>Date Validator</record_name>
+        <reverted_from/>
+        <source>747d543f835832108bbdb2b6feaad3bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 22:13:49</sys_created_on>
+        <sys_id>dabde8ff839832108bbdb2b6feaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199bb968b6a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 22:13:49</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>52bde8ff199832102c96c93fcd0853c1</update_guid>
+        <update_guid_history>52bde8ff199832102c96c93fcd0853c1:1258711789,736990379c58321050fc4ed29880d6bf:-596242720,f7e8d037cf583210740480e035141482:1846654539,2268903759583210960531ccc66653f9:1253178909,c7e518b3a7583210d2857f188cd1f51f:-1810305281</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 11:50:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>20595970dde64338a56cc022b468e069</sys_id>
+        <sys_metadata>858558b3835832108bbdb2b6feaad3af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Date Validator</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_parent display_value="Schedule">76220fab839032108bbdb2b6feaad33e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_scope_delete display_value="">1bce752f4b6946e697a4fab45d9be624</sys_scope_delete>
+        <sys_update_name>sys_script_client_858558b3835832108bbdb2b6feaad3af</sys_update_name>
+        <sys_update_version display_value="sys_script_client_858558b3835832108bbdb2b6feaad3af">dabde8ff839832108bbdb2b6feaad3c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 11:50:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

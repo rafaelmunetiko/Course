@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_752538_course.CheckCourseEnrollmentLimit</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CheckCourseEnrollmentLimit</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CheckCourseEnrollmentLimit = Class.create();
+CheckCourseEnrollmentLimit.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    hasReachedLimit: function() {
+        var openedBy = this.getParameter('sysparm_opened_by');   
+        var courseId = this.getParameter('sysparm_course_id');   
+
+        if (!openedBy || !courseId)
+            return 'false';
+
+        var gr = new GlideRecord('x_752538_course_enrollment'); 
+        gr.addQuery('opened_by', openedBy); 
+        gr.addQuery('course', courseId);    
+        gr.addQuery('state', 3);           
+        gr.query();
+
+        var count = 0;
+        while (gr.next()) {
+            count++;
+        }
+
+        return (count >= 3) ? 'true' : 'false';
+    },
+
+    type: 'CheckCourseEnrollmentLimit'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 12:01:33</sys_created_on>
+        <sys_id>0f54f41083a0f2108bbdb2b6feaad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CheckCourseEnrollmentLimit</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>sys_script_include_0f54f41083a0f2108bbdb2b6feaad381</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 12:01:33</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>0f54f41083a0f2108bbdb2b6feaad381</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 12:01:33</sys_created_on>
+        <sys_id>49c4b0588360f2108bbdb2b6feaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 12:01:33</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

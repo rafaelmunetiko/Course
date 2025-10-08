@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Duplicate Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var course = g_form.getValue('course');
+    var date = g_form.getValue('date');
+
+    var ga = new GlideAjax('AvoidDuplicateCourse');
+    ga.addParam('sysparm_name', 'isDuplicate');
+    ga.addParam('sysparm_course', course);
+    ga.addParam('sysparm_date', date);
+
+    ga.getXMLAnswer(function(answer) {
+        if (answer === 'true') {
+            g_form.addErrorMessage('ERROR: Unable to schedule. A training for this course already exists on this date.');
+            g_form.showFieldMsg('date', 'Date already scheduled for this course.', 'error');
+            g_form.setValue('date', ''); 
+        } else {
+            g_form.clearMessages();
+        }
+    });
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:44:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>341e6b23839432108bbdb2b6feaad308</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Validate Duplicate Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>sys_script_client_341e6b23839432108bbdb2b6feaad308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 22:13:52</sys_updated_on>
+        <table>x_752538_course_schedule</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course">b820c32b839032108bbdb2b6feaad378</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>sys_script_client_341e6b23839432108bbdb2b6feaad308</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;date&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Validate Duplicate Date&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var course = g_form.getValue('course');
+    var date = g_form.getValue('date');
+
+    var ga = new GlideAjax('AvoidDuplicateCourse');
+    ga.addParam('sysparm_name', 'isDuplicate');
+    ga.addParam('sysparm_course', course);
+    ga.addParam('sysparm_date', date);
+
+    ga.getXMLAnswer(function(answer) {
+        if (answer === 'true') {
+            g_form.addErrorMessage('ERROR: Unable to schedule. A training for this course already exists on this date.');
+            g_form.showFieldMsg('date', 'Date already scheduled for this course.', 'error');
+            g_form.setValue('date', ''); 
+        } else {
+            g_form.clearMessages();
+        }
+    });
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-06 17:44:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;341e6b23839432108bbdb2b6feaad308&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Duplicate Date&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Course" source="x_752538_course"&gt;b820c32b839032108bbdb2b6feaad378&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Course"&gt;b820c32b839032108bbdb2b6feaad378&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_341e6b23839432108bbdb2b6feaad308&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-06 22:13:52&lt;/sys_updated_on&gt;&lt;table&gt;x_752538_course_schedule&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1798636806</payload_hash>
+        <record_name>Validate Duplicate Date</record_name>
+        <reverted_from/>
+        <source>747d543f835832108bbdb2b6feaad3bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 22:13:52</sys_created_on>
+        <sys_id>0fbde4ff839832108bbdb2b6feaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199bb9695780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 22:13:52</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>83bde4fff6983210fd6418ca879a0e35</update_guid>
+        <update_guid_history>83bde4fff6983210fd6418ca879a0e35:1798636806,08f1dc7f1318321023bc63175eb57e81:-735414343,b2d0983fcd18321066a6639688c0f706:-1652919412,7a25f36bab9432104402ab8ec313274d:-1087941589,01d1f727c8943210e58a28dcc7762265:1889506809,96317be32f9432104e9e40a96459cb04:-1364479788,cbd037e301943210d746e24dcda5d1ed:1507892174,26203b233294321050470df677d58b69:-462563153</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 11:50:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>94297f29b768422c9c694df0abc39d44</sys_id>
+        <sys_metadata>341e6b23839432108bbdb2b6feaad308</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Duplicate Date</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_parent display_value="Schedule">76220fab839032108bbdb2b6feaad33e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_scope_delete display_value="">1bce752f4b6946e697a4fab45d9be624</sys_scope_delete>
+        <sys_update_name>sys_script_client_341e6b23839432108bbdb2b6feaad308</sys_update_name>
+        <sys_update_version display_value="sys_script_client_341e6b23839432108bbdb2b6feaad308">0fbde4ff839832108bbdb2b6feaad335</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 11:50:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
