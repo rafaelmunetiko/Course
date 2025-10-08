@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>translate</internal_name>
-        <label_cache>[{"name":"{{action.texttotranslate}}","label":"action➛textToTranslate","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variabtargetlanguagele}}","label":"action➛variabtargetLanguagele","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.text}}","label":"action➛Text","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.language}}","label":"action➛Language","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9ccbe249-a075-4b5a-bd8f-f8852e04c41d].apikey}}","label":"step➛Variable Initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d91bed0f-3b4e-4305-bc2e-d6f37f42e8be].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].__step_status__}}","label":"step➛JSON Parser step➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[829f1015-829d-4e7c-b023-7f7402c45e03].request_payload}}","label":"step➛Script step➛request_payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"b03113c9-25cc-44a3-a715-98b3350f96be"}},{"name":"{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d91bed0f-3b4e-4305-bc2e-d6f37f42e8be].__step_status__.code}}","label":"step➛REST step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.texttotranslate}}","label":"action➛textToTranslate","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variabtargetlanguagele}}","label":"action➛variabtargetLanguagele","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.text}}","label":"action➛Text","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.language}}","label":"action➛Language","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9ccbe249-a075-4b5a-bd8f-f8852e04c41d].apikey}}","label":"step➛Variable Initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d91bed0f-3b4e-4305-bc2e-d6f37f42e8be].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].__step_status__}}","label":"step➛JSON Parser step➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[829f1015-829d-4e7c-b023-7f7402c45e03].request_payload}}","label":"step➛Script step➛request_payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"b03113c9-25cc-44a3-a715-98b3350f96be"}},{"name":"{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d91bed0f-3b4e-4305-bc2e-d6f37f42e8be].__step_status__.code}}","label":"step➛REST step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9ccbe249-a075-4b5a-bd8f-f8852e04c41d].endpoint}}","label":"step➛Variable Initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master_snapshot>1225488083e872108bbdb2b6feaad367</master_snapshot>
         <master_snapshot_digest/>
         <name>Translate</name>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d14febb7835872108bbdb2b6feaad3bc</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Translate</sys_name>
         <sys_overrides/>
         <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d14febb7835872108bbdb2b6feaad3bc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:06</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:48:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -229,7 +229,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c5e1808c83a872108bbdb2b6feaad346</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -237,7 +237,7 @@
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:04</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:48:42</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -660,10 +660,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 12:39:17</sys_created_on>
         <sys_id>40d3373f835872108bbdb2b6feaad32b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 12:39:17</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:09:16</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=40d3373f835872108bbdb2b6feaad32b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -688,11 +688,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 12:39:18</sys_created_on>
         <sys_id>94d3373f835872108bbdb2b6feaad362</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 12:39:18</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:09:16</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
+outputs.endpoint = gs.getProperty("x_752538_course.integration_endpoint", "")&#13;
 })(inputs, outputs);&#13;
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -701,7 +702,90 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=40d3373f835872108bbdb2b6feaad32b"/>
     <sys_translated_text action="delete_multiple" query="documentkey=40d3373f835872108bbdb2b6feaad32b"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=40d3373f835872108bbdb2b6feaad32b"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=40d3373f835872108bbdb2b6feaad32b^sys_idNOT IN44d3373f835872108bbdb2b6feaad331"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=40d3373f835872108bbdb2b6feaad32b^sys_idNOT IN0ce3e448836c72108bbdb2b6feaad365,44d3373f835872108bbdb2b6feaad331"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=78b52d3b-2345-492a-a2ce-32448901f67d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>endpoint</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Endpoint</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Variable Initialization">40d3373f835872108bbdb2b6feaad32b</model>
+        <model_id>40d3373f835872108bbdb2b6feaad32b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_40d3373f835872108bbdb2b6feaad32b</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 16:09:16</sys_created_on>
+        <sys_id>0ce3e448836c72108bbdb2b6feaad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 16:09:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -786,7 +870,30 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=40d3373f835872108bbdb2b6feaad32b"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_40d3373f835872108bbdb2b6feaad32b^sys_idNOT INc0d3373f835872108bbdb2b6feaad35a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_40d3373f835872108bbdb2b6feaad32b^sys_idNOT IN48e3e448836c72108bbdb2b6feaad36b,c0d3373f835872108bbdb2b6feaad35a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>endpoint</element>
+        <help/>
+        <hint/>
+        <label>Endpoint</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_40d3373f835872108bbdb2b6feaad32b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 16:09:16</sys_created_on>
+        <sys_id>48e3e448836c72108bbdb2b6feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 16:09:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>apikey</element>
         <help/>
@@ -827,10 +934,10 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 12:39:18</sys_created_on>
         <sys_id>98d3373f835872108bbdb2b6feaad364</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:06:31</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:14:04</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=98d3373f835872108bbdb2b6feaad364"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -841,10 +948,10 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 12:39:18</sys_created_on>
         <sys_id>10d3373f835872108bbdb2b6feaad3a5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 12:39:18</sys_updated_on>
-        <value>https://openl-translate.p.rapidapi.com</value>
+        <sys_updated_on>2025-10-07 16:09:17</sys_updated_on>
+        <value/>
         <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -855,10 +962,10 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 12:39:18</sys_created_on>
         <sys_id>14d3373f835872108bbdb2b6feaad3a4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 12:39:18</sys_updated_on>
-        <value>/translate</value>
+        <sys_updated_on>2025-10-07 16:14:04</sys_updated_on>
+        <value>translate/</value>
         <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1006,11 +1113,11 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 12:39:18</sys_created_on>
         <sys_id>d0d3373f835872108bbdb2b6feaad3a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 12:39:18</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:09:17</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
+        <value>{{step[9ccbe249-a075-4b5a-bd8f-f8852e04c41d].endpoint}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>body</field>
@@ -1322,7 +1429,7 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dc02048c83a872108bbdb2b6feaad3c2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1330,7 +1437,7 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:04</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:48:42</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -1485,14 +1592,14 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 12:39:18</sys_created_on>
         <sys_id>64d3373f835872108bbdb2b6feaad3cf</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:04</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:48:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1522,30 +1629,30 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 07/10/2025 09:39:19">24d3373f835872108bbdb2b6feaad3dc</action_status_metadata_id>
         <condition>{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].__step_status__.code}}=1</condition>
-        <dont_treat_as_error>false</dont_treat_as_error>
+        <dont_treat_as_error>true</dont_treat_as_error>
         <label>Parse Step Failure</label>
         <order>1</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":"2 - Integration Error: check the RapidAPI Endpoint"}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 13:45:12</sys_created_on>
         <sys_id>a5e208cc83a872108bbdb2b6feaad370</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:45:12</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:48:37</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 07/10/2025 09:39:19">24d3373f835872108bbdb2b6feaad3dc</action_status_metadata_id>
         <condition>{{step[d91bed0f-3b4e-4305-bc2e-d6f37f42e8be].__step_status__.code}}=1</condition>
-        <dont_treat_as_error>false</dont_treat_as_error>
+        <dont_treat_as_error>true</dont_treat_as_error>
         <label>RapidAPI Step Failure</label>
         <order>2</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":"1 - Integration Error: check the RapidAPI URL"}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 13:45:12</sys_created_on>
         <sys_id>ade208cc83a872108bbdb2b6feaad370</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:45:12</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:48:37</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_d14febb7835872108bbdb2b6feaad3bc^sys_idNOT IN40d3f33f835872108bbdb2b6feaad3f7"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -1647,17 +1754,17 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Translate">d14febb7835872108bbdb2b6feaad3bc</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"0b25888083e872108bbdb2b6feaad333","name":"plan","plan_signature":null}}</plan>
-        <snapshot>3225488083e872108bbdb2b6feaad3d7</snapshot>
+        <snapshot>0aeca84483ac72108bbdb2b6feaad34a</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 13:55:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0b25888083e872108bbdb2b6feaad333</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:07</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:48:45</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1674,7 +1781,7 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <description/>
         <flow_priority/>
         <internal_name>translate</internal_name>
-        <label_cache>[{"name":"{{action.texttotranslate}}","label":"action➛textToTranslate","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variabtargetlanguagele}}","label":"action➛variabtargetLanguagele","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.text}}","label":"action➛Text","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.language}}","label":"action➛Language","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9ccbe249-a075-4b5a-bd8f-f8852e04c41d].apikey}}","label":"step➛Variable Initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d91bed0f-3b4e-4305-bc2e-d6f37f42e8be].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].__step_status__}}","label":"step➛JSON Parser step➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[829f1015-829d-4e7c-b023-7f7402c45e03].request_payload}}","label":"step➛Script step➛request_payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"b03113c9-25cc-44a3-a715-98b3350f96be"}},{"name":"{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d91bed0f-3b4e-4305-bc2e-d6f37f42e8be].__step_status__.code}}","label":"step➛REST step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.texttotranslate}}","label":"action➛textToTranslate","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variabtargetlanguagele}}","label":"action➛variabtargetLanguagele","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.text}}","label":"action➛Text","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.language}}","label":"action➛Language","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9ccbe249-a075-4b5a-bd8f-f8852e04c41d].apikey}}","label":"step➛Variable Initialization➛Apikey","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[d91bed0f-3b4e-4305-bc2e-d6f37f42e8be].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].__step_status__}}","label":"step➛JSON Parser step➛Step Status","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[829f1015-829d-4e7c-b023-7f7402c45e03].request_payload}}","label":"step➛Script step➛request_payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"b03113c9-25cc-44a3-a715-98b3350f96be"}},{"name":"{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].__step_status__.code}}","label":"step➛JSON Parser step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d91bed0f-3b4e-4305-bc2e-d6f37f42e8be].__step_status__.code}}","label":"step➛REST step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9ccbe249-a075-4b5a-bd8f-f8852e04c41d].endpoint}}","label":"step➛Variable Initialization➛Endpoint","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
         <name>Translate</name>
         <natlang/>
@@ -1687,7 +1794,7 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1225488083e872108bbdb2b6feaad367</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1695,7 +1802,7 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:05</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:45:21</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2079,10 +2186,10 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 13:55:05</sys_created_on>
         <sys_id>ae25488083e872108bbdb2b6feaad373</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:05</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:45:21</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ae25488083e872108bbdb2b6feaad373"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2093,11 +2200,12 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 13:55:05</sys_created_on>
         <sys_id>a625488083e872108bbdb2b6feaad381</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:05</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:45:21</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
+outputs.endpoint = gs.getProperty("x_752538_course.integration_endpoint", "")&#13;
 })(inputs, outputs);&#13;
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -2120,7 +2228,90 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ae25488083e872108bbdb2b6feaad373"/>
     <sys_translated_text action="delete_multiple" query="documentkey=ae25488083e872108bbdb2b6feaad373"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=ae25488083e872108bbdb2b6feaad373"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=ae25488083e872108bbdb2b6feaad373^sys_idNOT INe225488083e872108bbdb2b6feaad378"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ae25488083e872108bbdb2b6feaad373^sys_idNOT INa82c640483ac72108bbdb2b6feaad3ba,e225488083e872108bbdb2b6feaad378"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=78b52d3b-2345-492a-a2ce-32448901f67d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>endpoint</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Endpoint</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Variable Initialization">ae25488083e872108bbdb2b6feaad373</model>
+        <model_id>ae25488083e872108bbdb2b6feaad373</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ae25488083e872108bbdb2b6feaad373</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 16:45:21</sys_created_on>
+        <sys_id>a82c640483ac72108bbdb2b6feaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 16:45:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2205,7 +2396,7 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ae25488083e872108bbdb2b6feaad373"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ae25488083e872108bbdb2b6feaad373^sys_idNOT IN6225488083e872108bbdb2b6feaad37b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ae25488083e872108bbdb2b6feaad373^sys_idNOT IN6225488083e872108bbdb2b6feaad37b,a82c640483ac72108bbdb2b6feaad3bd"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>apikey</element>
         <help/>
@@ -2229,6 +2420,29 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>endpoint</element>
+        <help/>
+        <hint/>
+        <label>Endpoint</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_ae25488083e872108bbdb2b6feaad373</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 16:45:21</sys_created_on>
+        <sys_id>a82c640483ac72108bbdb2b6feaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 16:45:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Translate">1225488083e872108bbdb2b6feaad367</action>
         <cid>d91bed0f-3b4e-4305-bc2e-d6f37f42e8be</cid>
@@ -2246,10 +2460,10 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 13:55:05</sys_created_on>
         <sys_id>e625488083e872108bbdb2b6feaad396</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:06</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:45:21</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e625488083e872108bbdb2b6feaad396"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2260,10 +2474,10 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 13:55:06</sys_created_on>
         <sys_id>2225488083e872108bbdb2b6feaad3ae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:06</sys_updated_on>
-        <value>/translate</value>
+        <sys_updated_on>2025-10-07 16:45:21</sys_updated_on>
+        <value>translate/</value>
         <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2274,10 +2488,10 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 13:55:06</sys_created_on>
         <sys_id>2e25488083e872108bbdb2b6feaad3ae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:06</sys_updated_on>
-        <value>https://openl-translate.p.rapidapi.com</value>
+        <sys_updated_on>2025-10-07 16:45:21</sys_updated_on>
+        <value/>
         <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2425,11 +2639,11 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 13:55:06</sys_created_on>
         <sys_id>2e25488083e872108bbdb2b6feaad3ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:06</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:45:21</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
+        <value>{{step[9ccbe249-a075-4b5a-bd8f-f8852e04c41d].endpoint}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>body</field>
@@ -2662,7 +2876,7 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ea25488083e872108bbdb2b6feaad3b5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2670,7 +2884,7 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:06</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:48:44</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2932,14 +3146,14 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-07 13:55:06</sys_created_on>
         <sys_id>7625488083e872108bbdb2b6feaad3ca</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:06</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:48:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2966,7 +3180,7 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2625488083e872108bbdb2b6feaad3c1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2974,7 +3188,7 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:06</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:48:44</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -3162,34 +3376,34 @@ outputs.apikey = gs.getProperty("x_752538_course.integration_apikey", 0);&#13;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-10-07 13:55:06</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=7625488083e872108bbdb2b6feaad3d6^sys_idNOT IN3a25488083e872108bbdb2b6feaad3d6,be25488083e872108bbdb2b6feaad3d6"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=7625488083e872108bbdb2b6feaad3d6^sys_idNOT IN0aeca84483ac72108bbdb2b6feaad349,8eeca84483ac72108bbdb2b6feaad349"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 07/10/2025 10:55:06">7625488083e872108bbdb2b6feaad3d6</action_status_metadata_id>
         <condition>{{step[a16c1ac6-fcf4-4781-8f20-49b8bd2f7ec8].__step_status__.code}}=1</condition>
-        <dont_treat_as_error>false</dont_treat_as_error>
+        <dont_treat_as_error>true</dont_treat_as_error>
         <label>Parse Step Failure</label>
         <order>1</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":"2 - Integration Error: check the RapidAPI Endpoint"}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-07 13:55:06</sys_created_on>
-        <sys_id>3a25488083e872108bbdb2b6feaad3d6</sys_id>
+        <sys_created_on>2025-10-07 16:48:44</sys_created_on>
+        <sys_id>0aeca84483ac72108bbdb2b6feaad349</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:06</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:48:44</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 07/10/2025 10:55:06">7625488083e872108bbdb2b6feaad3d6</action_status_metadata_id>
         <condition>{{step[d91bed0f-3b4e-4305-bc2e-d6f37f42e8be].__step_status__.code}}=1</condition>
-        <dont_treat_as_error>false</dont_treat_as_error>
+        <dont_treat_as_error>true</dont_treat_as_error>
         <label>RapidAPI Step Failure</label>
         <order>2</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"404"}},"message":{"$cv":{"$c":"java.lang.String","$v":"1 - Integration Error: check the RapidAPI URL"}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</status>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-07 13:55:06</sys_created_on>
-        <sys_id>be25488083e872108bbdb2b6feaad3d6</sys_id>
+        <sys_created_on>2025-10-07 16:48:44</sys_created_on>
+        <sys_id>8eeca84483ac72108bbdb2b6feaad349</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 13:55:06</sys_updated_on>
+        <sys_updated_on>2025-10-07 16:48:44</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1225488083e872108bbdb2b6feaad367^sys_idNOT IN6625488083e872108bbdb2b6feaad36d"/>
     <sys_documentation action="INSERT_OR_UPDATE">

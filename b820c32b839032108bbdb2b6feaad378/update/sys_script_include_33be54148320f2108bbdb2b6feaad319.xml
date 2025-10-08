@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_752538_course.CheckEnrollment</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CheckEnrollment</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CheckEnrollment = Class.create();
+CheckEnrollment.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    isAlreadyEnrolled: function() {
+        var openedBy = this.getParameter('sysparm_opened_by');
+        var dateId = this.getParameter('sysparm_date_id');
+
+        gs.info(' CheckEnrollment → opened_by=' + openedBy + ', date=' + dateId);
+
+        var gr = new GlideRecord('x_752538_course_enrollment');
+        gr.addQuery('opened_by', openedBy);
+        gr.addQuery('date', dateId);
+        gr.query();
+
+        var found = gr.hasNext();
+        gs.info(' CheckEnrollment → já matriculado? ' + found);
+
+        return found ? 'true' : 'false';
+    },
+
+    type: 'CheckEnrollment'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 10:29:12</sys_created_on>
+        <sys_id>33be54148320f2108bbdb2b6feaad319</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CheckEnrollment</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>sys_script_include_33be54148320f2108bbdb2b6feaad319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 10:54:06</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>33be54148320f2108bbdb2b6feaad319</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 10:29:12</sys_created_on>
+        <sys_id>14af10148320f2108bbdb2b6feaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 10:29:12</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

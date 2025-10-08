@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_752538_course.CheckEnrollment</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CheckEnrollment</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CheckEnrollment = Class.create();
+CheckEnrollment.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    isAlreadyEnrolled: function() {
+        var userId = this.getParameter('sysparm_user_id');
+        var scheduleId = this.getParameter('sysparm_schedule_id');
+
+        var gr = new GlideRecord('x_752538_course_enrollment'); 
+        gr.query();
+
+        return gr.hasNext() ? 'true' : 'false';
+    },
+
+    type: 'CheckEnrollment'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 01:52:29</sys_created_on>
+        <sys_id>5748a2c483e4b2108bbdb2b6feaad3b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CheckEnrollment</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>sys_script_include_5748a2c483e4b2108bbdb2b6feaad3b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 02:14:10</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>5748a2c483e4b2108bbdb2b6feaad3b1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 01:52:29</sys_created_on>
+        <sys_id>0b59264883e4b2108bbdb2b6feaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 01:52:29</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course">b820c32b839032108bbdb2b6feaad378</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>sys_script_include_5748a2c483e4b2108bbdb2b6feaad3b1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_752538_course.CheckEnrollment&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;CheckEnrollment&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var CheckEnrollment = Class.create();
+CheckEnrollment.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    isAlreadyEnrolled: function() {
+        var userId = this.getParameter('sysparm_user_id');
+        var scheduleId = this.getParameter('sysparm_schedule_id');
+
+        var gr = new GlideRecord('x_752538_course_enrollment'); 
+        gr.query();
+
+        return gr.hasNext() ? 'true' : 'false';
+    },
+
+    type: 'CheckEnrollment'
+});
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-08 01:52:29&lt;/sys_created_on&gt;&lt;sys_id&gt;5748a2c483e4b2108bbdb2b6feaad3b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;CheckEnrollment&lt;/sys_name&gt;&lt;sys_package display_value="Course" source="x_752538_course"&gt;b820c32b839032108bbdb2b6feaad378&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Course"&gt;b820c32b839032108bbdb2b6feaad378&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_5748a2c483e4b2108bbdb2b6feaad3b1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-08 02:14:10&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;5748a2c483e4b2108bbdb2b6feaad3b1&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-08 01:52:29&lt;/sys_created_on&gt;&lt;sys_id&gt;0b59264883e4b2108bbdb2b6feaad349&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-08 01:52:29&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-137526054</payload_hash>
+        <record_name>CheckEnrollment</record_name>
+        <reverted_from/>
+        <source>747d543f835832108bbdb2b6feaad3bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 02:14:10</sys_created_on>
+        <sys_id>455ee68c83e4b2108bbdb2b6feaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199c198f49d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 02:14:10</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>785ee68cdae4b2105b7adc84d317f789</update_guid>
+        <update_guid_history>785ee68cdae4b2105b7adc84d317f789:-137526054,db5926482ce4b2102e29405ff0c6b074:-585412623</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 02:43:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>025bd6adf9594113ab7b7ad182dd34a9</sys_id>
+        <sys_metadata>5748a2c483e4b2108bbdb2b6feaad3b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CheckEnrollment</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_scope_delete display_value="">1bce752f4b6946e697a4fab45d9be624</sys_scope_delete>
+        <sys_update_name>sys_script_include_5748a2c483e4b2108bbdb2b6feaad3b1</sys_update_name>
+        <sys_update_version display_value="sys_script_include_5748a2c483e4b2108bbdb2b6feaad3b1">455ee68c83e4b2108bbdb2b6feaad38a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 02:43:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
