@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e1650faf839032108bbdb2b6feaad327" extends="task" label="Enrollment" max_length="40" name="x_752538_course_enrollment" type="collection">
         <element label="Course" max_length="32" name="course" reference="x_752538_course_course" type="reference"/>
-        <element label="Date" max_length="32" name="date" reference="x_752538_course_schedule" type="reference"/>
+        <element label="Date" max_length="32" name="date" reference="x_752538_course_schedule" reference_qual="javascript: 'course=' + current.course;&#13;&#10;" type="reference" use_reference_qualifier="advanced"/>
     </element>
 </database>

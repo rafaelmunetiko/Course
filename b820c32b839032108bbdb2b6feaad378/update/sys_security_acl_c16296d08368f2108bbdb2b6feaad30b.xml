@@ -6,24 +6,24 @@
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description>Allow query_range for instructor in x_752538_course_schedule, for users with role x_752538_course.instructor.</description>
+        <description/>
         <local_or_existing>Local</local_or_existing>
-        <name>x_752538_course_schedule.instructor</name>
+        <name>x_752538_course_schedule.date</name>
         <operation display_value="query_range">e66cf897b7300210240b06dd1e11a9fd</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-06 14:23:59</sys_created_on>
-        <sys_id>c8324fab839032108bbdb2b6feaad370</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>x_752538_course_schedule.instructor</sys_name>
+        <sys_created_on>2025-10-08 18:51:29</sys_created_on>
+        <sys_id>c16296d08368f2108bbdb2b6feaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_752538_course_schedule.date</sys_name>
         <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
         <sys_policy/>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
-        <sys_update_name>sys_security_acl_c8324fab839032108bbdb2b6feaad370</sys_update_name>
+        <sys_update_name>sys_security_acl_c16296d08368f2108bbdb2b6feaad30b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-08 18:59:26</sys_updated_on>
+        <sys_updated_on>2025-10-08 18:51:29</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

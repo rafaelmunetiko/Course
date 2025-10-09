@@ -11,7 +11,7 @@
         <column_label>Capacity</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>7</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name>sys_dictionary_x_752538_course_schedule_capacity</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-06 23:28:03</sys_updated_on>
+        <sys_updated_on>2025-10-08 14:49:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

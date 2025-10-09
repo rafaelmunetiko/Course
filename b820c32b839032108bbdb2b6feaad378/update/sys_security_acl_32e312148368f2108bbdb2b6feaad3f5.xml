@@ -6,34 +6,34 @@
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description>Allow read for records in x_752538_course_enrollment, for users with role x_752538_course.user.</description>
+        <description>Allow read for records in x_752538_course_schedule, for users with role x_752538_course.instructor.</description>
         <local_or_existing>Local</local_or_existing>
-        <name>x_752538_course_enrollment</name>
+        <name>x_752538_course_schedule</name>
         <operation display_value="read">read</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-06 14:38:04</sys_created_on>
-        <sys_id>a2650faf839032108bbdb2b6feaad322</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_752538_course_enrollment</sys_name>
+        <sys_created_on>2025-10-08 18:58:06</sys_created_on>
+        <sys_id>32e312148368f2108bbdb2b6feaad3f5</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>x_752538_course_schedule</sys_name>
         <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
         <sys_policy/>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
-        <sys_update_name>sys_security_acl_a2650faf839032108bbdb2b6feaad322</sys_update_name>
+        <sys_update_name>sys_security_acl_32e312148368f2108bbdb2b6feaad3f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-09 13:35:15</sys_updated_on>
+        <sys_updated_on>2025-10-09 20:42:12</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>a2650faf839032108bbdb2b6feaad322</id>
+        <id>32e312148368f2108bbdb2b6feaad3f5</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-08 20:20:00</sys_created_on>
-        <sys_id>eed6265c83a8f2108bbdb2b6feaad3e4</sys_id>
+        <sys_created_on>2025-10-09 20:38:09</sys_created_on>
+        <sys_id>1a94bb2c83e076108bbdb2b6feaad350</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-08 20:20:00</sys_updated_on>
+        <sys_updated_on>2025-10-09 20:38:09</sys_updated_on>
         <table>sys_security_acl</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>

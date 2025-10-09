@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 15:31:51</sys_created_on>
+        <sys_id>03b421188364f2108bbdb2b6feaad3ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_752538_course.instructor</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_security_acl display_value="">39b46d988364f2108bbdb2b6feaad3e5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_03b421188364f2108bbdb2b6feaad3ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 15:31:51</sys_updated_on>
+        <sys_user_role display_value="x_752538_course.instructor" name="x_752538_course.instructor">7020c32b839032108bbdb2b6feaad384</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course">b820c32b839032108bbdb2b6feaad378</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>sys_security_acl_role_03b421188364f2108bbdb2b6feaad3ac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-08 15:31:51</sys_created_on><sys_id>03b421188364f2108bbdb2b6feaad3ac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_752538_course.instructor</sys_name><sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package><sys_policy/><sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope><sys_security_acl display_value="">39b46d988364f2108bbdb2b6feaad3e5</sys_security_acl><sys_update_name>sys_security_acl_role_03b421188364f2108bbdb2b6feaad3ac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-08 15:31:51</sys_updated_on><sys_user_role display_value="x_752538_course.instructor" name="x_752538_course.instructor">7020c32b839032108bbdb2b6feaad384</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>258770297</payload_hash>
+        <record_name>.x_752538_course.instructor</record_name>
+        <reverted_from/>
+        <source>747d543f835832108bbdb2b6feaad3bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 15:31:51</sys_created_on>
+        <sys_id>e5e42d1c8364f2108bbdb2b6feaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199c4733fd50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 15:31:51</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>29e42d1c3564f2107addf27d91171c8d</update_guid>
+        <update_guid_history>29e42d1c3564f2107addf27d91171c8d:258770297</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_752538_course.instructor">916286dc83e4f2108bbdb2b6feaad345</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 17:40:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>310a93774e784d5faae28ecbe4541c29</sys_id>
+        <sys_metadata>03b421188364f2108bbdb2b6feaad3ac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_752538_course.instructor</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_scope_delete display_value="">1bce752f4b6946e697a4fab45d9be624</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_03b421188364f2108bbdb2b6feaad3ac</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_03b421188364f2108bbdb2b6feaad3ac">e5e42d1c8364f2108bbdb2b6feaad38e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 17:40:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
