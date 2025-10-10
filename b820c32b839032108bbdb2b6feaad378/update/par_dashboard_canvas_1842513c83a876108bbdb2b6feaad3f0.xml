@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="Course">2fd367e483a076108bbdb2b6feaad34c</dashboard>
+        <dashboard_tab display_value="list">9c4259f883a876108bbdb2b6feaad39e</dashboard_tab>
+        <layout>[{"sys_id":"c650197883a876108bbdb2b6feaad36f","x":0,"y":0,"w":44,"h":21,"component_id":"2b1c080881e05dc63b917044290b233f","component_props":"{\"table\":\"x_752538_course_enrollment\",\"columnPreferenceKey\":\"\",\"fixedQuery\":\"state=2\",\"followFilters\":true,\"listTitle\":\"All Active Tasks\",\"columns\":\"\",\"query\":\"active=true\",\"groupByField\":\"\",\"hideViewAll\":false,\"hideHighlightedValues\":false,\"showBorder\":true,\"bare\":false,\"highlightedValueConfigId\":\"\",\"hideHighlightContent\":false,\"highlightContent\":{\"patterns\":[],\"color\":\"\"},\"hideLinks\":false,\"nrlLandmark\":true,\"wordWrap\":false,\"overrideWordWrapUserPref\":false,\"maxCharLimit\":4000,\"hideEmptyStateImage\":false,\"hidePersonalization\":false,\"hideDotwalk\":false,\"hideColumnReorder\":false,\"hideRowSelector\":false,\"hideColumnGrouping\":false,\"hideColumnResizing\":false,\"hideColumnFiltering\":false,\"hideColumnSorting\":false,\"hideHeader\":false,\"hideTitle\":false,\"hideTitleRowCount\":false,\"hideLastRefreshedText\":false,\"hideRefreshButton\":false,\"hideInlineEditing\":false,\"isDashboard\":true,\"id\":\"fixedQuery\",\"value\":\"state=2\",\"noDebounce\":true,\"propLabel\":\"fixed filter\"}","can_edit":true}]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 03:27:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1842513c83a876108bbdb2b6feaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>par_dashboard_canvas_1842513c83a876108bbdb2b6feaad3f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 03:27:21</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>
