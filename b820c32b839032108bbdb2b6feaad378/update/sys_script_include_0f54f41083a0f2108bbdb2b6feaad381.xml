@@ -5,7 +5,8 @@
         <api_name>x_752538_course.CheckCourseEnrollmentLimit</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
-        <description/>
+        <description>Checks whether a user has already reached the maximum number of enrollments for a specific course. Returns true if the user has enrolled 3 times, otherwise returns false. This Script Include is callable from client scripts via GlideAjax.&#13;
+</description>
         <mobile_callable>false</mobile_callable>
         <name>CheckCourseEnrollmentLimit</name>
         <sandbox_callable>false</sandbox_callable>
@@ -34,20 +35,19 @@ CheckCourseEnrollmentLimit.prototype = Object.extendsObject(global.AbstractAjaxP
     },
 
     type: 'CheckCourseEnrollmentLimit'
-});
-]]></script>
+});]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-08 12:01:33</sys_created_on>
         <sys_id>0f54f41083a0f2108bbdb2b6feaad381</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>CheckCourseEnrollmentLimit</sys_name>
         <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name>sys_script_include_0f54f41083a0f2108bbdb2b6feaad381</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-08 12:01:33</sys_updated_on>
+        <sys_updated_on>2025-10-10 15:31:34</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>0f54f41083a0f2108bbdb2b6feaad381</id>

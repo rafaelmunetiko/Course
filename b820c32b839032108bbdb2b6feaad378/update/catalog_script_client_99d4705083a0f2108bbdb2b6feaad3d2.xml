@@ -34,7 +34,7 @@
     ga.getXMLAnswer(function(answer) {
         if (answer === 'true') {
             g_form.clearValue('course');
-            g_form.showFieldMsg('course', 'Already done 3 times this course.', 'error');
+            g_form.showFieldMsg('course', 'You have already completed this course 3 times.', 'error');
         } else {
             g_form.hideFieldMsg('course');
         }
@@ -46,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>99d4705083a0f2108bbdb2b6feaad3d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Limit Enrollment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
@@ -54,7 +54,7 @@
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name>catalog_script_client_99d4705083a0f2108bbdb2b6feaad3d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-08 12:05:22</sys_updated_on>
+        <sys_updated_on>2025-10-10 15:04:37</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

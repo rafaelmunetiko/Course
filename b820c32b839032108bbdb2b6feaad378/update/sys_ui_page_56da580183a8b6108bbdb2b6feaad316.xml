@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category/>
+        <client_script/>
+        <description>Enrollment page for instructor</description>
+        <direct>false</direct>
+        <endpoint>x_752538_course_redirect_to_instructor.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide">
+
+<g:evaluate var="jvar_user" expression="gs.getUserID()" />
+
+<script>
+    var user = "${jvar_user}";
+    var url = "/x_752538_course_enrollment_list.do?sysparm_query=date.instructor=" + user;
+    window.location = url;
+</script>
+
+</j:jelly>
+]]></html>
+        <name>redirect_to_instructor</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 18:05:49</sys_created_on>
+        <sys_id>56da580183a8b6108bbdb2b6feaad316</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>redirect_to_instructor</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>sys_ui_page_56da580183a8b6108bbdb2b6feaad316</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 18:09:04</sys_updated_on>
+    </sys_ui_page>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>56da580183a8b6108bbdb2b6feaad316</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 18:05:48</sys_created_on>
+        <sys_id>dc5b580183a8b6108bbdb2b6feaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 18:05:48</sys_updated_on>
+        <table>sys_ui_page</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

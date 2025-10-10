@@ -2,14 +2,14 @@
     <par_dashboard_canvas action="INSERT_OR_UPDATE">
         <dashboard display_value="Course">2fd367e483a076108bbdb2b6feaad34c</dashboard>
         <dashboard_tab/>
-        <layout>[]</layout>
+        <layout>[{"sys_id":"e2e693788324b6108bbdb2b6feaad3a5","x":2,"y":0,"w":7,"h":9,"component_id":"15fe506403f8a98575b6df59008ea8f1","component_props":"{\"src\":\"upload_unnamed.jpg\",\"sources\":\"[]\",\"fit\":\"fill\",\"position\":\"center center\",\"width\":170,\"height\":170,\"alt\":\"\",\"href\":\"https://www.servicenow.com/\",\"configAria\":\"{\\\"link\\\":{}}\",\"id\":\"height\",\"value\":170,\"propLabel\":\"Height\"}","can_edit":true},{"sys_id":"fea4d3fc83e0b6108bbdb2b6feaad33c","x":16,"y":0,"w":25,"h":4,"component_id":"2d56f06d55f46bbd4e79b5e624beb940","component_props":"{\"html\":\"&lt;p&gt;A centralized dashboard providing key insights into training performance, including course popularity, learner engagement, instructor activity, and upcoming sessions.&lt;/p&gt;\",\"id\":\"html\",\"value\":\"&lt;p&gt;A centralized dashboard providing key insights into training performance, including course popularity, learner engagement, instructor activity, and upcoming sessions.&lt;/p&gt;\",\"noDebounce\":true,\"propLabel\":\"HTML\"}","can_edit":true}]</layout>
         <sys_class_name>par_dashboard_canvas</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-09 19:25:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>23d3232883a076108bbdb2b6feaad34a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
@@ -17,6 +17,6 @@
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name>par_dashboard_canvas_23d3232883a076108bbdb2b6feaad34a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-09 19:25:04</sys_updated_on>
+        <sys_updated_on>2025-10-10 13:10:39</sys_updated_on>
     </par_dashboard_canvas>
 </record_update>

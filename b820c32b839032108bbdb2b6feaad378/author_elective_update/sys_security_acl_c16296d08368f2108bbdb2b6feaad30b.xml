@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_752538_course_schedule.date</name>
+        <operation display_value="query_range">e66cf897b7300210240b06dd1e11a9fd</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 18:51:29</sys_created_on>
+        <sys_id>c16296d08368f2108bbdb2b6feaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_752538_course_schedule.date</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>sys_security_acl_c16296d08368f2108bbdb2b6feaad30b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 18:51:29</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course">b820c32b839032108bbdb2b6feaad378</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>sys_security_acl_c16296d08368f2108bbdb2b6feaad30b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_752538_course_schedule.date</name><operation display_value="query_range">e66cf897b7300210240b06dd1e11a9fd</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-08 18:51:29</sys_created_on><sys_id>c16296d08368f2108bbdb2b6feaad30b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_752538_course_schedule.date</sys_name><sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package><sys_policy/><sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope><sys_update_name>sys_security_acl_c16296d08368f2108bbdb2b6feaad30b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-08 18:51:29</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1686839307</payload_hash>
+        <record_name>x_752538_course_schedule.date</record_name>
+        <reverted_from/>
+        <source>747d543f835832108bbdb2b6feaad3bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 18:51:29</sys_created_on>
+        <sys_id>ca921ad08368f2108bbdb2b6feaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199c52a06890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 18:51:29</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>8e921ad0a368f2105f6bf7f1eeb76842</update_guid>
+        <update_guid_history>8e921ad0a368f2105f6bf7f1eeb76842:-1686839307</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 16:04:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1abc06fd879d4e608dd9ab19e4074400</sys_id>
+        <sys_metadata>c16296d08368f2108bbdb2b6feaad30b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_752538_course_schedule.date</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_parent display_value="Date">67e443af839032108bbdb2b6feaad36c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_scope_delete display_value="">1bce752f4b6946e697a4fab45d9be624</sys_scope_delete>
+        <sys_update_name>sys_security_acl_c16296d08368f2108bbdb2b6feaad30b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_c16296d08368f2108bbdb2b6feaad30b">ca921ad08368f2108bbdb2b6feaad343</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:04:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

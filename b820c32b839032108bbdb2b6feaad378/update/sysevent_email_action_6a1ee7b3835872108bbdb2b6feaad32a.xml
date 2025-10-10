@@ -40,10 +40,11 @@
 <p>We inform you that your enrollment request for the course <strong>${course.name}</strong> has been <strong>rejected</strong> by your manager.</p>
 <p>Details of your request:</p>
 <ul>
-<li><strong>Course:</strong> <strong>${course.name}</strong></li>
-<li><strong>Instructor: ${course.instructor}</strong></li>
-<li><strong>Description EN: ${course.description_en}</strong></li>
+<li><strong>Course:</strong> ${course.name}</li>
+<li><strong>Instructor:</strong> ${course.instructor}</li>
+<li><strong>Description:</strong> ${course.description_en}</li>
 <li><strong>Date:</strong> ${date}</li>
+<li><strong>Reproval Reason:</strong> ${reproval_reason}</li>
 </ul>
 <p>For more details or to discuss the decision, please speak directly with your manager.</p>
 <p>If you have any questions about the process, feel free to contact us.</p>
@@ -69,7 +70,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6a1ee7b3835872108bbdb2b6feaad32a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Enrollment Reproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
@@ -77,7 +78,7 @@
         <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
         <sys_update_name>sysevent_email_action_6a1ee7b3835872108bbdb2b6feaad32a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 12:14:20</sys_updated_on>
+        <sys_updated_on>2025-10-10 19:15:12</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

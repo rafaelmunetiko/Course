@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_752538_course.TrainingDateValidator</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>TrainingDateValidator</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var TrainingDateValidator = Class.create();
+TrainingDateValidator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    checkDuplicateDate: function() {
+        var proposedDate = this.getParameter('sysparm_date');
+        var courseId = this.getParameter('sysparm_course');
+        var sysId = this.getParameter('sysparm_sys_id'); 
+
+        var gr = new GlideRecord("x_752538_course_schedule"); 
+
+        gr.addQuery('date', proposedDate);
+        gr.addQuery('course', courseId);
+
+        if (sysId) {
+            gr.addQuery('sys_id', '!=', sysId);
+        }
+
+        gr.setLimit(1);
+        gr.query();
+
+        if (gr.next()) {
+
+            var result = {};
+            result.conflict = true;
+            result.courseName = gr.course.getDisplayValue();
+            result.date = gr.date.getDisplayValue();
+            return JSON.stringify(result);
+        }
+
+    
+        return JSON.stringify({
+            conflict: false
+        });
+    },
+
+    type: 'TrainingDateValidator'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 20:27:47</sys_created_on>
+        <sys_id>46f45c73835832108bbdb2b6feaad3bd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>TrainingDateValidator</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>sys_script_include_46f45c73835832108bbdb2b6feaad3bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 22:14:15</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>46f45c73835832108bbdb2b6feaad3bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 20:27:47</sys_created_on>
+        <sys_id>41755c73835832108bbdb2b6feaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 20:27:47</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Course">b820c32b839032108bbdb2b6feaad378</application>
+        <file_path/>
+        <instance_id>113574cc3b3f06d4677f04e0b5e45ab3</instance_id>
+        <instance_name>dev282117</instance_name>
+        <name>sys_script_include_46f45c73835832108bbdb2b6feaad3bd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_752538_course.TrainingDateValidator&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;TrainingDateValidator&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var TrainingDateValidator = Class.create();
+TrainingDateValidator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    checkDuplicateDate: function() {
+        var proposedDate = this.getParameter('sysparm_date');
+        var courseId = this.getParameter('sysparm_course');
+        var sysId = this.getParameter('sysparm_sys_id'); 
+
+        var gr = new GlideRecord("x_752538_course_schedule"); 
+
+        gr.addQuery('date', proposedDate);
+        gr.addQuery('course', courseId);
+
+        if (sysId) {
+            gr.addQuery('sys_id', '!=', sysId);
+        }
+
+        gr.setLimit(1);
+        gr.query();
+
+        if (gr.next()) {
+
+            var result = {};
+            result.conflict = true;
+            result.courseName = gr.course.getDisplayValue();
+            result.date = gr.date.getDisplayValue();
+            return JSON.stringify(result);
+        }
+
+    
+        return JSON.stringify({
+            conflict: false
+        });
+    },
+
+    type: 'TrainingDateValidator'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-06 20:27:47&lt;/sys_created_on&gt;&lt;sys_id&gt;46f45c73835832108bbdb2b6feaad3bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;TrainingDateValidator&lt;/sys_name&gt;&lt;sys_package display_value="Course" source="x_752538_course"&gt;b820c32b839032108bbdb2b6feaad378&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Course"&gt;b820c32b839032108bbdb2b6feaad378&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_46f45c73835832108bbdb2b6feaad3bd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-06 22:14:15&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;46f45c73835832108bbdb2b6feaad3bd&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-06 20:27:47&lt;/sys_created_on&gt;&lt;sys_id&gt;41755c73835832108bbdb2b6feaad3c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-06 20:27:47&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1389710416</payload_hash>
+        <record_name>TrainingDateValidator</record_name>
+        <reverted_from/>
+        <source>747d543f835832108bbdb2b6feaad3bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 22:14:15</sys_created_on>
+        <sys_id>f4ddacff839832108bbdb2b6feaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199bb96f0f50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 22:14:15</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>3cddacff52983210ca7720c360fbd03b</update_guid>
+        <update_guid_history>3cddacff52983210ca7720c360fbd03b:1389710416,8b181c77d2583210be1a00e60596af5b:196265023,8ab65037f4583210a837f409425167ef:68354652,1d7518b32b58321086a8c8ce4936dd18:1115442978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:46:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>5e03dc5f83cc49f18046351b55ce9661</sys_id>
+        <sys_metadata>46f45c73835832108bbdb2b6feaad3bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TrainingDateValidator</sys_name>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_scope_delete display_value="">1bce752f4b6946e697a4fab45d9be624</sys_scope_delete>
+        <sys_update_name>sys_script_include_46f45c73835832108bbdb2b6feaad3bd</sys_update_name>
+        <sys_update_version display_value="sys_script_include_46f45c73835832108bbdb2b6feaad3bd">f4ddacff839832108bbdb2b6feaad33c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:46:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

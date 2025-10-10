@@ -3,7 +3,7 @@
         <element label="Instructor" max_length="32" name="instructor" reference="sys_user" reference_qual="javascript:new InstructorFilter().getInstructor(current);" type="reference" use_reference_qualifier="advanced"/>
         <element choice="1" default="7" label="Capacity" max_length="40" name="capacity" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Avaiable" sequence="0" value="7"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="7"/>
                 <element inactive_on_update="false" label="Full" sequence="1" value="3"/>
             </choice>
         </element>

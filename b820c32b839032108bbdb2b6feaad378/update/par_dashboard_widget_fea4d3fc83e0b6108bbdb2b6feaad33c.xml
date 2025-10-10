@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">23d3232883a076108bbdb2b6feaad34a</canvas>
+        <component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component>
+        <component_props>{"html":"&lt;p&gt;A centralized dashboard providing key insights into training performance, including course popularity, learner engagement, instructor activity, and upcoming sessions.&lt;/p&gt;","id":"html","value":"&lt;p&gt;A centralized dashboard providing key insights into training performance, including course popularity, learner engagement, instructor activity, and upcoming sessions.&lt;/p&gt;","noDebounce":true,"propLabel":"HTML"}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 12:57:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fea4d3fc83e0b6108bbdb2b6feaad33c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Course" source="x_752538_course">b820c32b839032108bbdb2b6feaad378</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Course">b820c32b839032108bbdb2b6feaad378</sys_scope>
+        <sys_update_name>par_dashboard_widget_fea4d3fc83e0b6108bbdb2b6feaad33c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 12:57:08</sys_updated_on>
+        <visualization/>
+        <w>25</w>
+        <widget_props/>
+        <x>16</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>
